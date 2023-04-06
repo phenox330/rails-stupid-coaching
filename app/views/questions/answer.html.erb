@@ -1,5 +1,7 @@
+<h1>Stupid coach</h1>
+<hr>
 <h2 class="question"><%= params[:question] %></h2>
 <hr>
 <h2 class="answer"><%= @answer %></h2>
 <hr>
-<div class="btn btn-warning"></div>
+<div class="btn btn-warning"><%= link_to "Ask another question", ask_path %></div>
